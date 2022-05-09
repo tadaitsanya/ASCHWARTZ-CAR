@@ -1,0 +1,8 @@
+var checkAge = parseInt (prompt("What is your age?"));
+  console.log(checkAge);
+ if (checkAge > 18)
+   { console.log("Powering On. Enjoy the ride!");}
+  else if (checkAge < 18)
+    { console.log("Sorry, you are too young to drive this car. Powering off.");}
+    else 
+    { console.log("Congratulations on your first year of driving. Enjoy the ride!");}
